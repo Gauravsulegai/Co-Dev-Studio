@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    serverActions: true,
+  },
+  images: {
+    domains: ['lh3.googleusercontent.com'], // for Google avatars
+  },
+};
 
-export default nextConfig;
+module.exports = nextConfig;
