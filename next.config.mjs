@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    serverActions: true,
+    serverActions: {}, // ✅ Changed from true to an empty object
   },
   images: {
     domains: ['lh3.googleusercontent.com'],
