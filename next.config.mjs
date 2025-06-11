@@ -5,8 +5,8 @@ const nextConfig = {
     serverActions: true,
   },
   images: {
-    domains: ['lh3.googleusercontent.com'], // for Google avatars
+    domains: ['lh3.googleusercontent.com'],
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
